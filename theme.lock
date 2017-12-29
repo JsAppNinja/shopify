@@ -66,7 +66,7 @@ assets/ss-sandbox.ttf:
 assets/ss-sandbox.woff:
   development: 2017-05-26T15:10:44-04:00   b55039769d22b85a1f658e52429f4e64
 assets/styles.scss.liquid:
-  development: 2017-12-25T19:58:48-05:00   75f3e923be3aa8602c596b21aa51b346
+  development: 2017-12-29T11:11:52-05:00   5323b5891f1d3eed7fa7851e493b0394
 assets/vntsc.js:
   development: 2017-11-18T06:11:12-05:00   a575006c869deb58f1da45c079a95642
 config/settings_data.json:
@@ -142,7 +142,7 @@ sections/product-template.liquid:
 sections/search-template.liquid:
   development: 2017-05-26T15:10:40-04:00   43bc33cddc2f34914481033576827bc4
 sections/slideshow.liquid:
-  development: 2017-12-26T20:01:49-05:00   1c1fea62a116933bd9e8656bae5a2355
+  development: 2017-12-28T20:54:51-05:00   668fb5299a8d981f0ee09a73eafcee45
 sections/social-feeds.liquid:
   development: 2017-05-26T15:10:41-04:00   fc88880541729a8c26950029d326d7d3
 sections/testimonial.liquid:

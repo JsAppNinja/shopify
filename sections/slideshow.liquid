@@ -1,6 +1,6 @@
 {% if section.blocks.size > 0 %}
   <section {% if section.settings.image_stretch == false %}class="container"{% endif %}>
-    <div  class="flexslider homepage_slider {% if section.settings.image_stretch == false %}sixteen columns{% endif %}"
+    <div  class="container flexslider homepage_slider {% if section.settings.image_stretch == false %}sixteen columns{% endif %}"
           data-slider-id="homepage_slider-{{section.id}}"
           data-slideshow-animation="{{section.settings.slideshow_animation}}"
           data-slideshow-speed="{{section.settings.slideshow_speed}}">
@@ -43,6 +43,7 @@
                       </div>
                     {% endif %}
                     {% if block.settings.button_label != blank %}
+                      <span class="height:1em;"></span>
                       <a href="{{ block.settings.link }}" class="action_button">
                         {{ block.settings.button_label | escape }}
                       </a>
