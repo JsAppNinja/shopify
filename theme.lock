@@ -66,7 +66,7 @@ assets/ss-sandbox.ttf:
 assets/ss-sandbox.woff:
   development: 2017-05-26T15:10:44-04:00   b55039769d22b85a1f658e52429f4e64
 assets/styles.scss.liquid:
-  development: 2017-12-29T11:11:52-05:00   5323b5891f1d3eed7fa7851e493b0394
+  development: 2017-12-29T11:55:28-05:00   50e8aadb3ec0d8c46f73442c34abee2d
 assets/vntsc.js:
   development: 2017-11-18T06:11:12-05:00   a575006c869deb58f1da45c079a95642
 config/settings_data.json:
