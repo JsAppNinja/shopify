@@ -66,7 +66,7 @@ assets/ss-sandbox.ttf:
 assets/ss-sandbox.woff:
   development: 2017-05-26T15:10:44-04:00   b55039769d22b85a1f658e52429f4e64
 assets/styles.scss.liquid:
-  development: 2017-12-22T21:12:30-05:00   d0a37124f03ca664f744943585f16327
+  development: 2017-12-25T19:58:48-05:00   75f3e923be3aa8602c596b21aa51b346
 assets/vntsc.js:
   development: 2017-11-18T06:11:12-05:00   a575006c869deb58f1da45c079a95642
 config/settings_data.json:
@@ -74,7 +74,7 @@ config/settings_data.json:
 config/settings_schema.json:
   development: 2017-05-26T15:10:44-04:00   9a90b151dad4173da90d6efdb9eca21c
 layout/theme.liquid:
-  development: 2017-12-15T17:32:59-05:00   4dceeeb5f91287f2da7a3f417f787091
+  development: 2017-12-26T20:00:17-05:00   59a19b3d58a1a5e21f63fe58c02a28e4
 locales/de.json:
   development: 2017-05-26T15:10:45-04:00   c6479f4e02445a5753cb6276dca5afe9
 locales/en.default.json:
@@ -122,7 +122,7 @@ sections/footer.liquid:
 sections/gallery.liquid:
   development: 2017-05-26T15:10:40-04:00   3abcae3d4f21e922a7b8b9af9b8b296e
 sections/header.liquid:
-  development: 2017-12-25T19:20:04-05:00   fd85dc5ec2606bb5943aeab5759e0bd3
+  development: 2017-12-25T19:59:11-05:00   0709688d5d06300c05fa40bc626ab1e1
 sections/image-text.liquid:
   development: 2017-05-26T15:10:40-04:00   4c6e0e50d7285ce811c468ef89d329cd
 sections/image-with-text-overlay-section.liquid:
@@ -142,7 +142,7 @@ sections/product-template.liquid:
 sections/search-template.liquid:
   development: 2017-05-26T15:10:40-04:00   43bc33cddc2f34914481033576827bc4
 sections/slideshow.liquid:
-  development: 2017-05-26T15:10:41-04:00   1c1fea62a116933bd9e8656bae5a2355
+  development: 2017-12-26T20:01:49-05:00   1c1fea62a116933bd9e8656bae5a2355
 sections/social-feeds.liquid:
   development: 2017-05-26T15:10:41-04:00   fc88880541729a8c26950029d326d7d3
 sections/testimonial.liquid:

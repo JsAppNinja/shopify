@@ -16,7 +16,7 @@
       <meta name="description" content="{{ page_description | escape }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags | escape }}.{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}.{% endif %}" />
     {% endif %}
 
-    
+
     <!-- Global site tag (gtag.js) - Google AdWords: 975339575 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-975339575"></script>
     <script>
@@ -26,7 +26,7 @@
 
       gtag('config', 'AW-975339575');
     </script>
-    
+
     <!-- Custom Fonts -->
     {% if settings.logo_font contains 'Google' or settings.headline_font contains 'Google' or settings.nav_font contains 'Google' or settings.slideshow_subtitle_font contains 'Google' or settings.regular_font contains 'Google' or settings.top_bar_font contains 'Google' %}
       <link href="//fonts.googleapis.com/css?family=.|{% if settings.logo_font contains 'Google' %}{{ settings.logo_font | replace: 'Google_', '' }}:light,normal,bold|{% endif %}{% if settings.headline_font contains 'Google' %}{{ settings.headline_font | replace: 'Google_', '' }}:light,normal,bold|{% endif %}{% if settings.nav_font contains 'Google' %}{{ settings.nav_font | replace: 'Google_', '' }}:light,normal,bold|{% endif %}{% if settings.slideshow_subtitle_font contains 'Google' %}{{ settings.slideshow_subtitle_font | replace: 'Google_', '' }}:light,normal,bold|{% endif %}{% if settings.top_bar_font contains 'Google' %}{{ settings.top_bar_font | replace: 'Google_', '' }}:light,normal,bold|{% endif %}{% if settings.regular_font contains 'Google' %}{{ settings.regular_font | replace: 'Google_', ''  }}:light,normal,bold{% endif %}" rel="stylesheet" type="text/css" />
@@ -49,7 +49,6 @@
 	<meta name="google-site-verification" content="Vtp55aM3gfRiHJdgLsbu92nRo0FORr6vCNTvA9de_Xg" />
     <!-- Stylesheets for Responsive 6.1.9 -->
     {{ 'styles.scss.css' | asset_url | stylesheet_tag }}
-
     <!-- Icons -->
     {% if settings.favicon != nil %}
       <link rel="shortcut icon" type="image/x-icon" href="{{ settings.favicon | img_url }}">
@@ -65,9 +64,9 @@
 
     {{ 'app.js' | asset_url | script_tag }}
     {{ content_for_header }}
-  
+
       {{ 'paymentfont.scss.css' | asset_url | stylesheet_tag }}
-    
+
 </head>
   <body class="{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}">
     {% section 'header' %}

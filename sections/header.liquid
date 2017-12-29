@@ -11,13 +11,7 @@
       </div>
     {% endif %}
 
-    {% if settings.show_multiple_currencies %}
-      <div class="four columns currencies-switcher mobile_hidden">
-        {% include 'currencies-switcher' %}
-      </div>
-    {% endif %}
-
-    <div class="columns {% if section.settings.search_box_top_bar and settings.show_multiple_currencies %}eight{% elsif section.settings.search_box_top_bar or settings.show_multiple_currencies %}twelve{% else %}sixteen{% endif %}">
+    <div class="columns {% if section.settings.search_box_top_bar and settings.show_multiple_currencies %}eight{% elsif section.settings.search_box_top_bar or settings.show_multiple_currencies %}twelve{% else %}sixteen{% endif %}" style="float:right;">
       <ul>
         {% if section.settings.top_bar_linklist != blank %}
           {% for link in linklists[section.settings.top_bar_linklist].links %}
@@ -52,6 +46,11 @@
 
         <li>
           <a href="/cart" class="cart_button"><span class="icon-cart"></span> {{ 'layout.general.cart' | t }} (<span class="cart_count">{{ cart.item_count }}</span>)</a>
+        </li>
+        <li style="width: 20%;">
+          {% if settings.show_multiple_currencies %}
+            {% include 'currencies-switcher' %}
+          {% endif %}
         </li>
         <li>
           {% if cart.item_count == 0 %}
